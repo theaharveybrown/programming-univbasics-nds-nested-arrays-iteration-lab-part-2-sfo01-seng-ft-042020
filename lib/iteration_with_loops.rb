@@ -10,7 +10,7 @@ def find_min_in_nested_arrays(src)
       if src[row_i][col_i] < min 
         min = src[row_i][col_i]
       end 
-      col += 1 
+      col_i += 1 
     end 
     smallest_nums << min 
     row += 1 
